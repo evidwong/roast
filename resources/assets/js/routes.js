@@ -4,10 +4,6 @@
  |-------------------------------------------------------------------------------
  | Contains all of the routes for the application
  */
-
-/**
- * Imports Vue and VueRouter to extend with the routes.
- */
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 

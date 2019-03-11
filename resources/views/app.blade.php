@@ -8,16 +8,15 @@
 
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-        <title>Roast</title>
+            <title>Roast</title>
 
-        <script type='text/javascript'>
+                 <script type='text/javascript'>
              window.Laravel = <?php echo json_encode([
                 'csrfToken' => csrf_token(),
             ]); ?>;
-        </script>
+                     </script>
     </head>
     <body>
-
         <div id="app">
             <router-view></router-view>
         </div>

@@ -1,11 +1,9 @@
 <style lang="scss">
     @import '~@/abstracts/_variables.scss';
-
     nav.top-navigation{
         background-color: $white;
         height: 50px;
         border-bottom: 2px solid $dark-color;
-
         span.logo{
             border-right: 1px solid $dark-color;
             display: block;
